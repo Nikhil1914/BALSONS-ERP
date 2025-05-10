@@ -33,7 +33,8 @@ if page == "Employee Master":
     # --- Branding and Header ---
     col_logo, col_title = st.columns([1, 4])
     with col_logo:
-        st.image("C:/Users/Tasma/Downloads/BS.jpeg", width=100)
+        st.image("assets/BS.jpeg", width=100)
+
     with col_title:
         st.markdown("""
             <h2 style='margin-bottom:0;'>👷‍♂️ Balsons Heavy Lift & Shift</h2>
